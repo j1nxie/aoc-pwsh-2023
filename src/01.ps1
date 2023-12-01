@@ -1,4 +1,4 @@
-$file = New-Object System.IO.StreamReader("inputs/01.txt")
+$file = [IO.StreamReader]::new("inputs/01.txt")
 
 $a = 0
 
